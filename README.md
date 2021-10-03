@@ -1,6 +1,14 @@
 # Xelatex Docker
 Docker image with everything to build latex PDFs
 
+## How to download it
+
+Pull the image from the GitHub docker registry
+
+```
+docker pull ghcr.io/luigigimmi/xelatex-docker:latest
+```
+
 ## How to use it
 This docker image contains texlive in order to build your latex files.
 
