@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update &&\
     apt install -f -y \
     make \
-    texlive-xelatex \
+    texlive-xetex \
     git
 
 WORKDIR /usr/src/app

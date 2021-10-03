@@ -6,7 +6,7 @@ This docker image contains texlive in order to build your latex files.
 
 You can use it iteratively by executing:
 ```
-docker run -it -v ${PWD}:/usr/src/app -rm ghcr.io/Luigigimmi/xelatex-docker xelatex file.tex
+docker run -it -v ${PWD}:/usr/src/app -rm ghcr.io/luigigimmi/xelatex-docker xelatex file.tex
 ```
 
 ## Contributing
